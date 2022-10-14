@@ -2,7 +2,7 @@ import os
 import copy
 import random
 
-path = "D:\\GameShortcuts"
+path = "D:\\GameShortcuts" #shortcut directory
 
 def getRandGame():
     onlyfiles = [f for f in os.listdir(path) if os.path.isfile(os.path.join(path, f))]
